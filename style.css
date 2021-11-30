@@ -79,6 +79,7 @@ article {
   grid-column: 2;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding-top: 10%;
+  gap: 5%;
 }
 
 p + figure {
@@ -88,7 +89,6 @@ p + figure {
 .test {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding-left: 10%;
   padding-bottom: 5%;
 }
 
