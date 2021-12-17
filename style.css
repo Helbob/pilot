@@ -25,7 +25,7 @@ header {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
   background: url(images/splash.webp) no-repeat center top;
   background-size: cover;
-  height: 75vh;
+  height: 700px;
 }
 
 .pic {
@@ -113,4 +113,17 @@ p {
 
 .color {
   background-color: rgb(121, 65, 55);
+}
+
+.container {
+  display: flex;
+}
+
+.first {
+  padding: 2%;
+  border-radius: 40px;
+}
+.second {
+  padding: 2%;
+  border-radius: 40px;
 }
